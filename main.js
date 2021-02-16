@@ -27,3 +27,21 @@ function changeImg(){
 
 // Run function when page loads
 window.onload=changeImg;
+
+
+
+
+
+
+// SLIDER FUNCTION FROM SWIPER.JS LIBARY
+
+const swiper = new Swiper('.swiper-container', {
+	autoplay: {
+	  delay: 2000,
+	  loop: true,
+	},
+
+	pagination: {
+		el: '.swiper-pagination',
+	  },
+   });
