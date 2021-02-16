@@ -37,7 +37,7 @@ window.onload=changeImg;
 
 const swiper = new Swiper('.swiper-container', {
 	autoplay: {
-	  delay: 1000,
+	  delay: 2000,
 	  loop: true,
 	},
 
